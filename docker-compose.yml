@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  movies:
+    image: hpakala53/paytmmovies:latest
+    ports:
+      - "90:80"
+    deploy:
+      replicas: 3
+
